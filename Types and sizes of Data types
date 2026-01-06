@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int age = 20;
+    float height = 5.6;
+    double salary = 45000.75;
+    char grade = 'A';
+
+    printf("Integer value (age) = %d\n", age);
+    printf("Float value (height) = %.2f\n", height);
+    printf("Double value (salary) = %.2lf\n", salary);
+    printf("Character value (grade) = %c\n", grade);
+
+    printf("\nSize of int = %lu bytes", sizeof(int));
+    printf("\nSize of float = %lu bytes", sizeof(float));
+    printf("\nSize of double = %lu bytes", sizeof(double));
+    printf("\nSize of char = %lu bytes", sizeof(char));
+
+    return 0;
+}
