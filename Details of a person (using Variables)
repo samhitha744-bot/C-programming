@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main() {
+    char name[30];
+    int age; 
+    char gender;        
+    char occupation[30];
+    
+    
+    printf("Enter name : ");
+    scanf("%s", name);
+
+    printf("Enter Age : ");
+    scanf("%d", &age);
+
+    printf("Enter Gender M/F : ");
+    scanf(" %c", &gender);   
+
+    printf("Enter Occupation : ");
+    scanf("%s", occupation);
+    
+    printf("\n-----Details-----");
+    printf("\nName : %s", name);
+    printf("\nAge : %d", age);
+    printf("\nGender : %c", gender);
+    printf("\nOccupation : %s", occupation);
+  
+
+    return 0;
+} 
